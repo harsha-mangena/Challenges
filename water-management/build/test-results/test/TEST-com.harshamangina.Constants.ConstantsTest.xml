@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.harshamangina.Constants.ConstantsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-06-30T02:27:04" hostname="man" time="0.1">
+  <properties/>
+  <testcase name="testFor_CorporationFlatRate()" classname="com.harshamangina.Constants.ConstantsTest" time="0.081"/>
+  <testcase name="testFor_BoreWellFlatRate()" classname="com.harshamangina.Constants.ConstantsTest" time="0.002"/>
+  <testcase name="testFor_DaysInAMonth()" classname="com.harshamangina.Constants.ConstantsTest" time="0.002"/>
+  <testcase name="testFor_TenantsIn2BHK()" classname="com.harshamangina.Constants.ConstantsTest" time="0.002"/>
+  <testcase name="testFor_TenantsIn3BHK()" classname="com.harshamangina.Constants.ConstantsTest" time="0.002"/>
+  <testcase name="testFor_AllotedWaterPerDay()" classname="com.harshamangina.Constants.ConstantsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

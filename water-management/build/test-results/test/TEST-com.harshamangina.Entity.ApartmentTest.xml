@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.harshamangina.Entity.ApartmentTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-06-30T02:27:04" hostname="man" time="0.022">
+  <properties/>
+  <testcase name="testFor_totalPeopleInApartment()" classname="com.harshamangina.Entity.ApartmentTest" time="0.003"/>
+  <testcase name="testFor_totalWaterConsumedInAMonth()" classname="com.harshamangina.Entity.ApartmentTest" time="0.003"/>
+  <testcase name="testFor_AddingGuest()" classname="com.harshamangina.Entity.ApartmentTest" time="0.003"/>
+  <testcase name="testFor_toatlWaterConsumedByGuests()" classname="com.harshamangina.Entity.ApartmentTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
