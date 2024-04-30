@@ -1,5 +1,6 @@
 package com.nymble.assessment;
 
+import io.github.pixee.security.BoundedLineReader;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -28,7 +29,7 @@ public class inputParser {
             FileReader reader = new FileReader(path);
             BufferedReader bufferedReader = new BufferedReader(reader);
             String line;
-            while ((line = bufferedReader.readLine()) != null)
+            while ((line = BoundedLineReader.readLine(bufferedReader, 5_000_000)) != null)
             {
                 Integer speed = Integer.parseInt(line);
                 currentSpeeds.add(speed);
