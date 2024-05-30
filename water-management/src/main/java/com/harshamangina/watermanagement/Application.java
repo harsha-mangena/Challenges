@@ -30,18 +30,18 @@ public class Application {
 					String[] arguments = cmd.split(" ");
 
 					//Command : ALLOT_WATER 
-					if(arguments[0].equals("ALLOT_WATER")){
+					if("ALLOT_WATER".equals(arguments[0])){
 						String[] shareSplit = arguments[2].split(":");
 						apartment.AllotWater(Integer.parseInt(arguments[1]), Integer.parseInt(shareSplit[0]), Integer.parseInt(shareSplit[1]));
 					}
 
 					//Command : ADD_GUEST
-					else if(arguments[0].equals("ADD_GUESTS")){
+					else if("ADD_GUESTS".equals(arguments[0])){
 						apartment.addGuets(Integer.parseInt(arguments[1]));
 					}
 
 					//Command : BILL
-					else if(arguments[0].equals("BILL")){
+					else if("BILL".equals(arguments[0])){
 						service = new BillOperation(apartment);
 						System.out.println(service.generateBill());
 					}
